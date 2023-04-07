@@ -1,0 +1,44 @@
+
+.container .col{
+   margin: 0px auto;
+   width: 50%;
+}
+.container .col table{
+    width: 100%;
+}
+@media(max-width:1200px){
+    .container col{
+        margin: 0 auto;
+        width: 50%;
+        
+    }
+    .container .col table{
+        width: 100%;
+    }
+}
+
+
+@media(max-width:600px){
+    .container col{
+        margin: 0 auto;
+        width: 100%;
+        overflow-x: auto;
+        
+    }
+    .container .col table{
+        width: 100%;
+        color: powderblue;
+    }
+}
+@media(max-width:400px){
+    .container col{
+        margin: 0 auto;
+        width: 100%;
+       
+      
+    }
+    .container .col table{
+        width: 100%;
+        color: yellowgreen;
+    }
+}
